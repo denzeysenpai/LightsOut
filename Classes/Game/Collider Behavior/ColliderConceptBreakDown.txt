@@ -1,0 +1,79 @@
+﻿
+[collider breakdown] << Collider Behavior
+
+Colliders are Controls that represent the perspective and distance between a player and a wall.
+Colliders are triggered whenever it intersects with a wall.
+
+Each collider represent different areas of the render screen and each level of depth (colliders that
+are nearer to the player will display a brighter color to simulate an illusion of depth) will have different
+shades of color
+
+
+List<PictureBox> col = new List<PictureBox>() {c1, c2, c3, c4, c5};
+
+Color Depth1 = Color.FromArgb(); // brightest color  || for c1.Bounds.Intersect == true   || col[0]
+Color Depth2 = Color.FromArgb(); // bright color     || for c2.Bounds.Intersect == true   || col[1]
+Color Depth3 = Color.FromArgb(); // medium color     || for c3.Bounds.Intersect == true   || col[2]
+Color Depth4 = Color.FromArgb(); // dark color       || for c4.Bounds.Intersect == true   || col[3]
+Color Depth5 = Color.FromArgb(); // darkest color    || for c5.Bounds.Intersect == true   || col[4]
+
+----------------------------------------------------------------------------------------------------------------
+
+Collider Methods and their Purpose/Functionality, Description and FLow of Process
+
+
+Colliders.SetColliders --> FixBreaking --> GetFace --> ArrangeColliderMethod --> ArrangeColliderSet --> ArrangeColliders
+
+Tracker --> SetCollidersToStick --> StickToControl --> FixBreaking
+
+MovementForColliders --> SetColliderView --> ColliderForView
+
+
+SetColliders:
+	Sets given controls to a list to be called later
+
+
+
+FixBreaking:
+	Arranges the Colliders first before any other process.
+	If collider distance between the player is greater than load in distance during movement, 
+	then pull colliders towards player 
+
+
+
+GetFace:
+	Private method for FixBreaking, returns a string that corresponds with where the player is facing
+
+
+
+ArrangeColliderMethod:
+	Provides values to place in the parameters of the ArrangeColliderSet method
+
+
+
+ArranegColliderSet:
+	Arranges the colliders by placing values passed by the previous method but now loops the code in order to set all colliders
+
+
+
+ArrangeColliders:
+	Arranges the colliders depending on the given values by the previous methods. This includes knowing which side
+	the collider is at from the player even if the player's direction changes. Applies adjustments and rearranges
+	the colliders whenever the player rotates 90 degrees.
+
+
+
+Tracker:
+	Tracks the positions of the colliders and detects if the colliders are starting to break off from the group
+	or moving away from the player.
+
+
+
+SetCollidersToStick:
+	Summary: Acts like a glue for the colliders to the player.
+
+
+
+StickToControl:
+	Method for keeping the colliders together (regardless of the player location, so just basically is responsible
+	for the distance between colliders only)
