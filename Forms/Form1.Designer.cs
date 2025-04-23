@@ -79,11 +79,11 @@
             // 
             this.lblincorrectUser.AutoSize = true;
             this.lblincorrectUser.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(2)))), ((int)(((byte)(34)))), ((int)(((byte)(34)))), ((int)(((byte)(34)))));
-            this.lblincorrectUser.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblincorrectUser.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblincorrectUser.ForeColor = System.Drawing.Color.Red;
             this.lblincorrectUser.Location = new System.Drawing.Point(122, 57);
             this.lblincorrectUser.Name = "lblincorrectUser";
-            this.lblincorrectUser.Size = new System.Drawing.Size(105, 21);
+            this.lblincorrectUser.Size = new System.Drawing.Size(102, 20);
             this.lblincorrectUser.TabIndex = 9;
             this.lblincorrectUser.Text = "NOT FOUND";
             // 
@@ -91,11 +91,11 @@
             // 
             this.lblincorrectPass.AutoSize = true;
             this.lblincorrectPass.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(2)))), ((int)(((byte)(34)))), ((int)(((byte)(34)))), ((int)(((byte)(34)))));
-            this.lblincorrectPass.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblincorrectPass.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblincorrectPass.ForeColor = System.Drawing.Color.Red;
             this.lblincorrectPass.Location = new System.Drawing.Point(122, 124);
             this.lblincorrectPass.Name = "lblincorrectPass";
-            this.lblincorrectPass.Size = new System.Drawing.Size(121, 21);
+            this.lblincorrectPass.Size = new System.Drawing.Size(123, 20);
             this.lblincorrectPass.TabIndex = 8;
             this.lblincorrectPass.Text = "IS INCORRECT";
             // 
@@ -106,7 +106,7 @@
             this.btnExit.FlatAppearance.BorderSize = 0;
             this.btnExit.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
             this.btnExit.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnExit.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnExit.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnExit.ForeColor = System.Drawing.Color.Cornsilk;
             this.btnExit.Location = new System.Drawing.Point(32, 367);
             this.btnExit.Name = "btnExit";
@@ -126,7 +126,7 @@
             this.btnPlayAsGuest.FlatAppearance.BorderSize = 0;
             this.btnPlayAsGuest.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(60)))), ((int)(((byte)(60)))), ((int)(((byte)(60)))));
             this.btnPlayAsGuest.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnPlayAsGuest.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnPlayAsGuest.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnPlayAsGuest.ForeColor = System.Drawing.Color.Cornsilk;
             this.btnPlayAsGuest.Location = new System.Drawing.Point(32, 325);
             this.btnPlayAsGuest.Name = "btnPlayAsGuest";
@@ -144,7 +144,7 @@
             this.btnRegister.FlatAppearance.BorderSize = 0;
             this.btnRegister.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(60)))), ((int)(((byte)(60)))), ((int)(((byte)(60)))));
             this.btnRegister.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnRegister.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnRegister.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnRegister.Location = new System.Drawing.Point(32, 261);
             this.btnRegister.Name = "btnRegister";
             this.btnRegister.Size = new System.Drawing.Size(229, 41);
@@ -157,11 +157,11 @@
             // 
             this.lblCharcharragd.AutoSize = true;
             this.lblCharcharragd.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(2)))), ((int)(((byte)(34)))), ((int)(((byte)(34)))), ((int)(((byte)(34)))));
-            this.lblCharcharragd.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblCharcharragd.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblCharcharragd.ForeColor = System.Drawing.Color.Cornsilk;
             this.lblCharcharragd.Location = new System.Drawing.Point(83, 303);
             this.lblCharcharragd.Name = "lblCharcharragd";
-            this.lblCharcharragd.Size = new System.Drawing.Size(123, 17);
+            this.lblCharcharragd.Size = new System.Drawing.Size(123, 16);
             this.lblCharcharragd.TabIndex = 6;
             this.lblCharcharragd.Text = "------------OR------------";
             // 
@@ -169,11 +169,11 @@
             // 
             this.lblChar.AutoSize = true;
             this.lblChar.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(2)))), ((int)(((byte)(34)))), ((int)(((byte)(34)))), ((int)(((byte)(34)))));
-            this.lblChar.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblChar.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblChar.ForeColor = System.Drawing.Color.Cornsilk;
             this.lblChar.Location = new System.Drawing.Point(83, 240);
             this.lblChar.Name = "lblChar";
-            this.lblChar.Size = new System.Drawing.Size(123, 17);
+            this.lblChar.Size = new System.Drawing.Size(123, 16);
             this.lblChar.TabIndex = 6;
             this.lblChar.Text = "------------OR------------";
             // 
@@ -185,7 +185,7 @@
             this.btnLogIn.FlatAppearance.BorderSize = 0;
             this.btnLogIn.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(60)))), ((int)(((byte)(60)))), ((int)(((byte)(60)))));
             this.btnLogIn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnLogIn.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnLogIn.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnLogIn.Location = new System.Drawing.Point(32, 199);
             this.btnLogIn.Name = "btnLogIn";
             this.btnLogIn.Size = new System.Drawing.Size(230, 41);
@@ -198,11 +198,11 @@
             // 
             this.lblCharcha.AutoSize = true;
             this.lblCharcha.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(2)))), ((int)(((byte)(34)))), ((int)(((byte)(34)))), ((int)(((byte)(34)))));
-            this.lblCharcha.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblCharcha.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblCharcha.ForeColor = System.Drawing.Color.Cornsilk;
             this.lblCharcha.Location = new System.Drawing.Point(30, 124);
             this.lblCharcha.Name = "lblCharcha";
-            this.lblCharcha.Size = new System.Drawing.Size(99, 21);
+            this.lblCharcha.Size = new System.Drawing.Size(103, 20);
             this.lblCharcha.TabIndex = 4;
             this.lblCharcha.Text = "PASSWORD";
             // 
@@ -210,11 +210,11 @@
             // 
             this.lblcharcharchar.AutoSize = true;
             this.lblcharcharchar.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(2)))), ((int)(((byte)(34)))), ((int)(((byte)(34)))), ((int)(((byte)(34)))));
-            this.lblcharcharchar.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblcharcharchar.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblcharcharchar.ForeColor = System.Drawing.Color.Cornsilk;
             this.lblcharcharchar.Location = new System.Drawing.Point(30, 57);
             this.lblcharcharchar.Name = "lblcharcharchar";
-            this.lblcharcharchar.Size = new System.Drawing.Size(97, 21);
+            this.lblcharcharchar.Size = new System.Drawing.Size(101, 20);
             this.lblcharcharchar.TabIndex = 3;
             this.lblcharcharchar.Text = "USERNAME";
             // 
@@ -256,10 +256,10 @@
             this.txtPassword.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(150)))), ((int)(((byte)(150)))), ((int)(((byte)(150)))));
             this.txtPassword.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.txtPassword.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.txtPassword.Font = new System.Drawing.Font("Century Gothic", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtPassword.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtPassword.Location = new System.Drawing.Point(0, 0);
             this.txtPassword.Name = "txtPassword";
-            this.txtPassword.Size = new System.Drawing.Size(230, 34);
+            this.txtPassword.Size = new System.Drawing.Size(230, 31);
             this.txtPassword.TabIndex = 0;
             this.txtPassword.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.txtPassword.UseSystemPasswordChar = true;
@@ -278,10 +278,10 @@
             this.txtUserName.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(150)))), ((int)(((byte)(150)))), ((int)(((byte)(150)))));
             this.txtUserName.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.txtUserName.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.txtUserName.Font = new System.Drawing.Font("Century Gothic", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtUserName.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtUserName.Location = new System.Drawing.Point(0, 0);
             this.txtUserName.Name = "txtUserName";
-            this.txtUserName.Size = new System.Drawing.Size(232, 34);
+            this.txtUserName.Size = new System.Drawing.Size(232, 31);
             this.txtUserName.TabIndex = 0;
             this.txtUserName.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.txtUserName.TextChanged += new System.EventHandler(this.txtUserName_TextChanged);
@@ -291,11 +291,11 @@
             this.lblTitle1.AccessibleName = "frmLoginWindow";
             this.lblTitle1.AutoSize = true;
             this.lblTitle1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(2)))), ((int)(((byte)(34)))), ((int)(((byte)(34)))), ((int)(((byte)(34)))));
-            this.lblTitle1.Font = new System.Drawing.Font("Century Gothic", 51.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblTitle1.Font = new System.Drawing.Font("Microsoft Sans Serif", 51.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblTitle1.ForeColor = System.Drawing.Color.Cornsilk;
             this.lblTitle1.Location = new System.Drawing.Point(432, 126);
             this.lblTitle1.Name = "lblTitle1";
-            this.lblTitle1.Size = new System.Drawing.Size(254, 82);
+            this.lblTitle1.Size = new System.Drawing.Size(289, 79);
             this.lblTitle1.TabIndex = 1;
             this.lblTitle1.Text = "LIGHTS";
             // 
@@ -304,11 +304,11 @@
             this.label1.AccessibleName = "frmLoginWindow";
             this.label1.AutoSize = true;
             this.label1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(2)))), ((int)(((byte)(34)))), ((int)(((byte)(34)))), ((int)(((byte)(34)))));
-            this.label1.Font = new System.Drawing.Font("Century Gothic", 80.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 80.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(60)))), ((int)(((byte)(60)))), ((int)(((byte)(60)))));
             this.label1.Location = new System.Drawing.Point(425, 189);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(256, 126);
+            this.label1.Size = new System.Drawing.Size(278, 120);
             this.label1.TabIndex = 2;
             this.label1.Text = "OUT";
             // 
@@ -326,11 +326,11 @@
             // 
             this.lblWaterMark.AutoSize = true;
             this.lblWaterMark.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(2)))), ((int)(((byte)(34)))), ((int)(((byte)(34)))), ((int)(((byte)(34)))));
-            this.lblWaterMark.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblWaterMark.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblWaterMark.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(50)))), ((int)(((byte)(50)))), ((int)(((byte)(50)))));
             this.lblWaterMark.Location = new System.Drawing.Point(705, 427);
             this.lblWaterMark.Name = "lblWaterMark";
-            this.lblWaterMark.Size = new System.Drawing.Size(87, 17);
+            this.lblWaterMark.Size = new System.Drawing.Size(98, 16);
             this.lblWaterMark.TabIndex = 10;
             this.lblWaterMark.Text = "@SEIYAMARX";
             // 
